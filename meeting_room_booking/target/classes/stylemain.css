@@ -1,0 +1,39 @@
+h1
+{
+text-align:center;
+transition:color 2s ease-out 0.5s;
+}
+h1:hover{
+      color: blue;
+      cursor: pointer;
+}
+body{
+background:#bdceff;
+font-family: 'Roboto', sans-serif;
+overflow:hidden;
+
+/* */
+}
+.title{
+    font-weight:800;
+    transition: all 2s ease-out;
+}
+.container{
+    border-bottom:3px solid #005aad;
+    padding:5px;
+    
+    }
+
+.menu{
+    border-bottom:3px solid #005aad;
+    display:flex;
+    justify-content:space-around;
+    padding:5px;
+    background-color:white;
+}
+
+.menu-item:hover{
+    font-size:1.5em;
+    color:red;
+    cursor: pointer;
+}

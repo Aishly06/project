@@ -1,0 +1,32 @@
+body{
+    background:#bdceff;
+    font-family: 'Roboto', sans-serif;
+    overflow:hidden;
+    
+    /* */
+    }
+    .container{
+        border-bottom:3px solid #005aad;
+        padding:5px;
+        
+        }
+        .menu{
+            width: 200px;
+            border: 10px solid red;
+            padding: 30px;
+            margin: 10px;
+              }
+              .menu1{
+                width: 200px;
+            border: 10px solid red;
+            padding: 30px;
+            margin: 10px;
+              }
+        
+        
+        .menu-item:hover{
+            font-size:1.5em;
+            color:red;
+            cursor: pointer;
+        }
+        
